@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+    terraform:
+        build: ./
+        container_name: terraform
+        volumes: 
+            - ./:/app/
